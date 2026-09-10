@@ -117,7 +117,7 @@ export const AppMgmtView: React.FC<AppMgmtViewProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <div className="text-xs font-semibold text-blue-600 font-mono mb-1">
-            3.4 上报管理 &gt; 3.4.3 日志源管理 &gt; 3.4.3.1 应用管理
+            上报管理 &gt; 日志源管理 &gt; 应用管理
           </div>
           <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
             <Boxes className="w-5 h-5 text-indigo-600" />

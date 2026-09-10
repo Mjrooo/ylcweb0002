@@ -188,7 +188,7 @@ export const MachineMgmtView: React.FC<MachineMgmtViewProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <div className="text-xs font-semibold text-blue-600 font-mono mb-1">
-            3.4 上报管理 &gt; 3.4.1 上报机器管理
+            上报管理 &gt; 上报机器管理
           </div>
           <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
             <Cpu className="w-5 h-5 text-emerald-600" />

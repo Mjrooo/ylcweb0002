@@ -29,39 +29,39 @@ export const Header: React.FC<HeaderProps> = ({
   const getBreadcrumb = (id: MenuId) => {
     switch (id) {
       case 'home':
-        return ['3.2 首页模块', '系统首页总览'];
+        return ['首页模块', '系统首页总览'];
       case 'alert-list':
-        return ['3.3 上报查看', '3.3.1 监控告警查看', '3.3.1.1 监控点告警列表'];
+        return ['上报查看', '监控告警查看', '监控点告警列表'];
       case 'log-realtime':
-        return ['3.3 上报查看', '3.3.2 日志查看', '3.3.2.1 实时日志查看'];
+        return ['上报查看', '日志查看', '实时日志查看'];
       case 'log-history':
-        return ['3.3 上报查看', '3.3.2 日志查看', '3.3.2.2 历史日志查看'];
+        return ['上报查看', '日志查看', '历史日志查看'];
       case 'log-files':
-        return ['3.3 上报查看', '3.3.2 日志查看', '3.3.2.3 日志文件列表'];
+        return ['上报查看', '日志查看', '日志文件列表'];
       case 'plugin-linux':
-        return ['3.3 上报查看', '3.3.3 插件实时表格', 'Linux基础资源监控'];
+        return ['上报查看', '插件实时表格', 'Linux基础资源监控'];
       case 'plugin-browser':
-        return ['3.3 上报查看', '3.3.4 插件图表', '浏览器端监控'];
+        return ['上报查看', '插件图表', '浏览器端监控'];
       case 'view-common':
-        return ['3.3 上报查看', '3.3.5 视图查看', '3.3.5.1 监控系统-常用'];
+        return ['上报查看', '视图查看', '监控系统-常用'];
       case 'server-status':
-        return ['3.3 上报查看', '3.3.6 服务器查看', '服务器运行状态'];
+        return ['上报查看', '服务器查看', '服务器运行状态'];
       case 'mgmt-machines':
-        return ['3.4 上报管理', '3.4.1 上报机器管理'];
+        return ['上报管理', '上报机器管理'];
       case 'mgmt-point-types':
-        return ['3.4 上报管理', '3.4.2 监控点管理', '3.4.2.1 监控点类型管理'];
+        return ['上报管理', '监控点管理', '监控点类型管理'];
       case 'mgmt-points':
-        return ['3.4 上报管理', '3.4.2 监控点管理', '3.4.2.2 监控点管理'];
+        return ['上报管理', '监控点管理', '监控点管理'];
       case 'mgmt-point-views':
-        return ['3.4 上报管理', '3.4.2 监控点管理', '3.4.2.3 监控点视图管理'];
+        return ['上报管理', '监控点管理', '监控点视图管理'];
       case 'mgmt-point-alarms':
-        return ['3.4 上报管理', '3.4.2 监控点管理', '3.4.2.4 监控点告警配置'];
+        return ['上报管理', '监控点管理', '监控点告警配置'];
       case 'mgmt-apps':
-        return ['3.4 上报管理', '3.4.3 日志源管理', '3.4.3.1 应用管理'];
+        return ['上报管理', '日志源管理', '应用管理'];
       case 'mgmt-modules':
-        return ['3.4 上报管理', '3.4.3 日志源管理', '3.4.3.2 模块管理'];
+        return ['上报管理', '日志源管理', '模块管理'];
       case 'mgmt-log-configs':
-        return ['3.4 上报管理', '3.4.3 日志源管理', '3.4.3.3 日志配置管理'];
+        return ['上报管理', '日志源管理', '日志配置管理'];
       default:
         return ['系统后台'];
     }

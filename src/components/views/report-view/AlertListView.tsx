@@ -150,7 +150,7 @@ export const AlertListView: React.FC<AlertListViewProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <div className="text-xs font-semibold text-blue-600 font-mono mb-1">
-            3.3 上报查看 &gt; 3.3.1 监控告警查看 &gt; 3.3.1.1 监控点告警列表
+            上报查看 &gt; 监控告警查看 &gt; 监控点告警列表
           </div>
           <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
             <ShieldAlert className="w-5 h-5 text-rose-600" />

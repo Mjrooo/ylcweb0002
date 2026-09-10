@@ -94,7 +94,7 @@ export const HistoryLogView: React.FC<HistoryLogViewProps> = ({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <div className="text-xs font-semibold text-blue-600 font-mono mb-1">
-            3.3 上报查看 &gt; 3.3.2 日志查看 &gt; 3.3.2.2 历史日志查看
+            上报查看 &gt; 日志查看 &gt; 历史日志查看
           </div>
           <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
             <FileText className="w-5 h-5 text-indigo-600" />

@@ -218,7 +218,7 @@ export const DashboardHome: React.FC<DashboardHomeProps> = ({
           <div>
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-semibold mb-2">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>3.2 首页模块 · 次级模块快捷跳转中枢</span>
+              <span>首页模块 · 次级模块快捷跳转中枢</span>
             </div>
             <h2 className="text-2xl font-bold tracking-tight">
               运维监控与全链路日志上报系统

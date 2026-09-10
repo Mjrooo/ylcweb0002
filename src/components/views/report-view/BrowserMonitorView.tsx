@@ -38,7 +38,7 @@ export const BrowserMonitorView: React.FC = () => {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
           <div className="text-xs font-semibold text-blue-600 font-mono mb-1">
-            3.3 上报查看 &gt; 3.3.4 插件图表 &gt; 浏览器端监控
+            上报查看 &gt; 插件图表 &gt; 浏览器端监控
           </div>
           <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
             <LineChartIcon className="w-5 h-5 text-purple-600" />
