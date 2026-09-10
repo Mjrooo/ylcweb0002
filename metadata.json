@@ -1,0 +1,6 @@
+{
+  "name": "运维监控后台管理系统",
+  "description": "企业级运维监控与上报后台管理系统，提供监控告警、日志检索、插件图表、服务器运行状态及上报全生命周期管理。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
